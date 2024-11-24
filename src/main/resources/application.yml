@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId:
+            clientSecret:
+
+            redirect-uri: "http://localhost:9213/login/oauth2/code/github"
+server:
+  port: 9213
